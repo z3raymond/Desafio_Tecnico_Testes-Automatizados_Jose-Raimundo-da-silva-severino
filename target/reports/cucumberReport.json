@@ -1,0 +1,282 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language:pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Compra bem-sucedida de um único produto",
+        "description": "",
+        "id": "processo-de-compra-e-pagamento;compra-bem-sucedida-de-um-único-produto",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2413542000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que o usuário está na página inicial do e-commerce",
+            "match": {
+              "location": "Compras.acessar_site_e_commerce()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 155706100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o usuário seleciona um produto específico",
+            "match": {
+              "location": "Compras.o_usuário_seleciona_um_produto_específico()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 119753400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "adiciona o produto ao carrinho",
+            "match": {
+              "location": "Compras.adiciona_o_produto_ao_carrinho()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 115937800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "visualiza o conteúdo do carrinho",
+            "match": {
+              "location": "Compras.visualiza_o_conteúdo_do_carrinho()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 758894300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "prossegue para o checkout",
+            "match": {
+              "location": "Compras.prossegue_para_o_checkout()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 99735700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "confirma a compra",
+            "match": {
+              "location": "Compras.confirma_a_compra()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 75296200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "a compra é concluída com sucesso",
+            "match": {
+              "location": "Compras.a_compra_é_concluída_com_sucesso()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Compra de produtos múltiplos no carrinho",
+        "description": "",
+        "id": "processo-de-compra-e-pagamento;compra-de-produtos-múltiplos-no-carrinho",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 684121300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "que o usuário está na página inicial do e-commerce",
+            "match": {
+              "location": "Compras.acessar_site_e_commerce()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 148802100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "escolhe mais de um produto",
+            "match": {
+              "location": "Compras.escolhe_mais_de_um_produto()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 108752300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "visualiza o conteúdo do carrinho",
+            "match": {
+              "location": "Compras.visualiza_o_conteúdo_do_carrinho()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 454671100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "prossegue para o checkout",
+            "match": {
+              "location": "Compras.prossegue_para_o_checkout()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 77745600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "confirma a compra",
+            "match": {
+              "location": "Compras.confirma_a_compra()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 36858000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "a compra é concluída com sucesso",
+            "match": {
+              "location": "Compras.a_compra_é_concluída_com_sucesso()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Comprar produtos sem informa dados do checkout",
+        "description": "",
+        "id": "processo-de-compra-e-pagamento;comprar-produtos-sem-informa-dados-do-checkout",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 374443700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "que o usuário está na página inicial do e-commerce",
+            "match": {
+              "location": "Compras.acessar_site_e_commerce()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 72533200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "o usuário seleciona um produto específico",
+            "match": {
+              "location": "Compras.o_usuário_seleciona_um_produto_específico()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 74574200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "adiciona o produto ao carrinho",
+            "match": {
+              "location": "Compras.adiciona_o_produto_ao_carrinho()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 81999500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "visualiza o conteúdo do carrinho",
+            "match": {
+              "location": "Compras.visualiza_o_conteúdo_do_carrinho()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 160251100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "nao informa os  para o checkout",
+            "match": {
+              "location": "Compras.nao_informa_os_para_o_checkout()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 39455500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "recebo uma mensagem de erro",
+            "match": {
+              "location": "Compras.recebo_uma_mensagem_de_erro()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Processo de Compra e Pagamento",
+    "description": "Eu como usuario e desejo compra um produto\r\nquero compra um produto\r\nPara realiza a compra via todos os pagamentos disponivel no site.",
+    "id": "processo-de-compra-e-pagamento",
+    "keyword": "Funcionalidade",
+    "uri": "CompradeProdutonoe-commerce.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@Tagcompras"
+      }
+    ]
+  }
+]
