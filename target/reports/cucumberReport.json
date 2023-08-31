@@ -6,10 +6,10 @@
         "value": "#language:pt"
       }
     ],
-    "line": 3,
+    "line": 2,
     "elements": [
       {
-        "line": 8,
+        "line": 7,
         "name": "Compra bem-sucedida de um único produto",
         "description": "",
         "id": "processo-de-compra-e-pagamento;compra-bem-sucedida-de-um-único-produto",
@@ -18,10 +18,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2413542000,
+              "duration": 3452129900,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "que o usuário está na página inicial do e-commerce",
             "match": {
               "location": "Compras.acessar_site_e_commerce()"
@@ -30,10 +30,10 @@
           },
           {
             "result": {
-              "duration": 155706100,
+              "duration": 86385800,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "o usuário seleciona um produto específico",
             "match": {
               "location": "Compras.o_usuário_seleciona_um_produto_específico()"
@@ -42,10 +42,10 @@
           },
           {
             "result": {
-              "duration": 119753400,
+              "duration": 78061200,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "adiciona o produto ao carrinho",
             "match": {
               "location": "Compras.adiciona_o_produto_ao_carrinho()"
@@ -54,10 +54,10 @@
           },
           {
             "result": {
-              "duration": 115937800,
+              "duration": 65107900,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "visualiza o conteúdo do carrinho",
             "match": {
               "location": "Compras.visualiza_o_conteúdo_do_carrinho()"
@@ -66,10 +66,10 @@
           },
           {
             "result": {
-              "duration": 758894300,
+              "duration": 614400100,
               "status": "passed"
             },
-            "line": 13,
+            "line": 12,
             "name": "prossegue para o checkout",
             "match": {
               "location": "Compras.prossegue_para_o_checkout()"
@@ -78,10 +78,10 @@
           },
           {
             "result": {
-              "duration": 99735700,
+              "duration": 66196400,
               "status": "passed"
             },
-            "line": 14,
+            "line": 13,
             "name": "confirma a compra",
             "match": {
               "location": "Compras.confirma_a_compra()"
@@ -90,10 +90,10 @@
           },
           {
             "result": {
-              "duration": 75296200,
+              "duration": 40508100,
               "status": "passed"
             },
-            "line": 15,
+            "line": 14,
             "name": "a compra é concluída com sucesso",
             "match": {
               "location": "Compras.a_compra_é_concluída_com_sucesso()"
@@ -103,7 +103,7 @@
         ]
       },
       {
-        "line": 19,
+        "line": 18,
         "name": "Compra de produtos múltiplos no carrinho",
         "description": "",
         "id": "processo-de-compra-e-pagamento;compra-de-produtos-múltiplos-no-carrinho",
@@ -112,10 +112,10 @@
         "steps": [
           {
             "result": {
-              "duration": 684121300,
+              "duration": 472362100,
               "status": "passed"
             },
-            "line": 20,
+            "line": 19,
             "name": "que o usuário está na página inicial do e-commerce",
             "match": {
               "location": "Compras.acessar_site_e_commerce()"
@@ -124,10 +124,10 @@
           },
           {
             "result": {
-              "duration": 148802100,
+              "duration": 196729100,
               "status": "passed"
             },
-            "line": 21,
+            "line": 20,
             "name": "escolhe mais de um produto",
             "match": {
               "location": "Compras.escolhe_mais_de_um_produto()"
@@ -136,10 +136,10 @@
           },
           {
             "result": {
-              "duration": 108752300,
+              "duration": 81048500,
               "status": "passed"
             },
-            "line": 22,
+            "line": 21,
             "name": "visualiza o conteúdo do carrinho",
             "match": {
               "location": "Compras.visualiza_o_conteúdo_do_carrinho()"
@@ -148,10 +148,10 @@
           },
           {
             "result": {
-              "duration": 454671100,
+              "duration": 523438000,
               "status": "passed"
             },
-            "line": 23,
+            "line": 22,
             "name": "prossegue para o checkout",
             "match": {
               "location": "Compras.prossegue_para_o_checkout()"
@@ -160,10 +160,10 @@
           },
           {
             "result": {
-              "duration": 77745600,
+              "duration": 83456100,
               "status": "passed"
             },
-            "line": 24,
+            "line": 23,
             "name": "confirma a compra",
             "match": {
               "location": "Compras.confirma_a_compra()"
@@ -172,10 +172,10 @@
           },
           {
             "result": {
-              "duration": 36858000,
+              "duration": 28979600,
               "status": "passed"
             },
-            "line": 25,
+            "line": 24,
             "name": "a compra é concluída com sucesso",
             "match": {
               "location": "Compras.a_compra_é_concluída_com_sucesso()"
@@ -185,7 +185,7 @@
         ]
       },
       {
-        "line": 28,
+        "line": 27,
         "name": "Comprar produtos sem informa dados do checkout",
         "description": "",
         "id": "processo-de-compra-e-pagamento;comprar-produtos-sem-informa-dados-do-checkout",
@@ -194,10 +194,10 @@
         "steps": [
           {
             "result": {
-              "duration": 374443700,
+              "duration": 410133600,
               "status": "passed"
             },
-            "line": 29,
+            "line": 28,
             "name": "que o usuário está na página inicial do e-commerce",
             "match": {
               "location": "Compras.acessar_site_e_commerce()"
@@ -206,10 +206,10 @@
           },
           {
             "result": {
-              "duration": 72533200,
+              "duration": 103754500,
               "status": "passed"
             },
-            "line": 30,
+            "line": 29,
             "name": "o usuário seleciona um produto específico",
             "match": {
               "location": "Compras.o_usuário_seleciona_um_produto_específico()"
@@ -218,10 +218,10 @@
           },
           {
             "result": {
-              "duration": 74574200,
+              "duration": 90893000,
               "status": "passed"
             },
-            "line": 31,
+            "line": 30,
             "name": "adiciona o produto ao carrinho",
             "match": {
               "location": "Compras.adiciona_o_produto_ao_carrinho()"
@@ -230,10 +230,10 @@
           },
           {
             "result": {
-              "duration": 81999500,
+              "duration": 87762400,
               "status": "passed"
             },
-            "line": 32,
+            "line": 31,
             "name": "visualiza o conteúdo do carrinho",
             "match": {
               "location": "Compras.visualiza_o_conteúdo_do_carrinho()"
@@ -242,10 +242,10 @@
           },
           {
             "result": {
-              "duration": 160251100,
+              "duration": 169715100,
               "status": "passed"
             },
-            "line": 33,
+            "line": 32,
             "name": "nao informa os  para o checkout",
             "match": {
               "location": "Compras.nao_informa_os_para_o_checkout()"
@@ -254,10 +254,10 @@
           },
           {
             "result": {
-              "duration": 39455500,
+              "duration": 37645800,
               "status": "passed"
             },
-            "line": 34,
+            "line": 33,
             "name": "recebo uma mensagem de erro",
             "match": {
               "location": "Compras.recebo_uma_mensagem_de_erro()"
@@ -271,12 +271,6 @@
     "description": "Eu como usuario e desejo compra um produto\r\nquero compra um produto\r\nPara realiza a compra via todos os pagamentos disponivel no site.",
     "id": "processo-de-compra-e-pagamento",
     "keyword": "Funcionalidade",
-    "uri": "CompradeProdutonoe-commerce.feature",
-    "tags": [
-      {
-        "line": 2,
-        "name": "@Tagcompras"
-      }
-    ]
+    "uri": "CompradeProdutonoe-commerce.feature"
   }
 ]

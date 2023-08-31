@@ -1,5 +1,4 @@
 #language:pt
-@Tagcompras
 Funcionalidade: Processo de Compra e Pagamento
   Eu como usuario e desejo compra um produto
   quero compra um produto
