@@ -7,261 +7,75 @@ formatter.feature({
     }
   ],
   "line": 2,
-  "name": "Processo de Compra e Pagamento",
-  "description": "Eu como usuario e desejo compra um produto\r\nquero compra um produto\r\nPara realiza a compra via todos os pagamentos disponivel no site.",
-  "id": "processo-de-compra-e-pagamento",
+  "name": "Compra de Produtos em um E-commerce",
+  "description": "Como um cliente que deseja estar bem vestido",
+  "id": "compra-de-produtos-em-um-e-commerce",
   "keyword": "Funcionalidade"
 });
 formatter.scenario({
-  "line": 7,
-  "name": "Compra bem-sucedida de um único produto",
+  "line": 8,
+  "name": "Adicionar itens ao carrinho",
   "description": "",
-  "id": "processo-de-compra-e-pagamento;compra-bem-sucedida-de-um-único-produto",
+  "id": "compra-de-produtos-em-um-e-commerce;adicionar-itens-ao-carrinho",
   "type": "scenario",
   "keyword": "Cenário"
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "que o usuário está na página inicial do e-commerce",
   "keyword": "Dado "
 });
 formatter.step({
-  "line": 9,
-  "name": "o usuário seleciona um produto específico",
+  "line": 10,
+  "name": "eu adiciono 3 unidades  Stylish Dress ao meu carrinho",
   "keyword": "Quando "
 });
 formatter.step({
-  "line": 10,
-  "name": "adiciona o produto ao carrinho",
-  "keyword": "E "
-});
-formatter.step({
   "line": 11,
-  "name": "visualiza o conteúdo do carrinho",
+  "name": "adiciono 2 unidades  Beautiful Peacock Blue Cotton Linen Saree",
   "keyword": "E "
 });
 formatter.step({
   "line": 12,
-  "name": "prossegue para o checkout",
+  "name": "adiciono  1 unidade Men Tshirt",
   "keyword": "E "
 });
 formatter.step({
   "line": 13,
-  "name": "confirma a compra",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 14,
-  "name": "a compra é concluída com sucesso",
-  "keyword": "Então "
-});
-formatter.match({
-  "location": "Compras.acessar_site_e_commerce()"
-});
-formatter.result({
-  "duration": 3452129900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Compras.o_usuário_seleciona_um_produto_específico()"
-});
-formatter.result({
-  "duration": 86385800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Compras.adiciona_o_produto_ao_carrinho()"
-});
-formatter.result({
-  "duration": 78061200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Compras.visualiza_o_conteúdo_do_carrinho()"
-});
-formatter.result({
-  "duration": 65107900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Compras.prossegue_para_o_checkout()"
-});
-formatter.result({
-  "duration": 614400100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Compras.confirma_a_compra()"
-});
-formatter.result({
-  "duration": 66196400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Compras.a_compra_é_concluída_com_sucesso()"
-});
-formatter.result({
-  "duration": 40508100,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 18,
-  "name": "Compra de produtos múltiplos no carrinho",
-  "description": "",
-  "id": "processo-de-compra-e-pagamento;compra-de-produtos-múltiplos-no-carrinho",
-  "type": "scenario",
-  "keyword": "Cenário"
-});
-formatter.step({
-  "line": 19,
-  "name": "que o usuário está na página inicial do e-commerce",
-  "keyword": "Dado "
-});
-formatter.step({
-  "line": 20,
-  "name": "escolhe mais de um produto",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 21,
-  "name": "visualiza o conteúdo do carrinho",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 22,
-  "name": "prossegue para o checkout",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 23,
-  "name": "confirma a compra",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 24,
-  "name": "a compra é concluída com sucesso",
-  "keyword": "Então "
-});
-formatter.match({
-  "location": "Compras.acessar_site_e_commerce()"
-});
-formatter.result({
-  "duration": 472362100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Compras.escolhe_mais_de_um_produto()"
-});
-formatter.result({
-  "duration": 196729100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Compras.visualiza_o_conteúdo_do_carrinho()"
-});
-formatter.result({
-  "duration": 81048500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Compras.prossegue_para_o_checkout()"
-});
-formatter.result({
-  "duration": 523438000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Compras.confirma_a_compra()"
-});
-formatter.result({
-  "duration": 83456100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Compras.a_compra_é_concluída_com_sucesso()"
-});
-formatter.result({
-  "duration": 28979600,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 27,
-  "name": "Comprar produtos sem informa dados do checkout",
-  "description": "",
-  "id": "processo-de-compra-e-pagamento;comprar-produtos-sem-informa-dados-do-checkout",
-  "type": "scenario",
-  "keyword": "Cenário"
-});
-formatter.step({
-  "line": 28,
-  "name": "que o usuário está na página inicial do e-commerce",
-  "keyword": "Dado "
-});
-formatter.step({
-  "line": 29,
-  "name": "o usuário seleciona um produto específico",
-  "keyword": "Quando "
-});
-formatter.step({
-  "line": 30,
-  "name": "adiciona o produto ao carrinho",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 31,
-  "name": "visualiza o conteúdo do carrinho",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 32,
-  "name": "nao informa os  para o checkout",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 33,
-  "name": "recebo uma mensagem de erro",
+  "name": "vejo o total de cada produto de acordo com adicionado no carrinho",
   "keyword": "Entao "
 });
 formatter.match({
   "location": "Compras.acessar_site_e_commerce()"
 });
 formatter.result({
-  "duration": 410133600,
+  "duration": 16573023400,
   "status": "passed"
 });
 formatter.match({
-  "location": "Compras.o_usuário_seleciona_um_produto_específico()"
+  "location": "Compras.adicionar_Stylish_Dress()"
 });
 formatter.result({
-  "duration": 103754500,
-  "status": "passed"
+  "duration": 2220035100,
+  "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d114.0.5735.199)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-F35JQHN\u0027, ip: \u0027192.168.254.108\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_111\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\\Users\\leona\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55227}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 3c8c3123805f9a6e02030b56a894d647\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat pages.CompraProdutosPage.adicionarStylishDress(CompraProdutosPage.java:58)\r\n\tat steps.Compras.adicionar_Stylish_Dress(Compras.java:20)\r\n\tat ✽.Quando eu adiciono 3 unidades  Stylish Dress ao meu carrinho(CompradeProdutonoe-commerce.feature:10)\r\n",
+  "status": "failed"
 });
 formatter.match({
-  "location": "Compras.adiciona_o_produto_ao_carrinho()"
+  "location": "Compras.adicionarBeautiful()"
 });
 formatter.result({
-  "duration": 90893000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
-  "location": "Compras.visualiza_o_conteúdo_do_carrinho()"
+  "location": "Compras.adicionarMenTshirt()"
 });
 formatter.result({
-  "duration": 87762400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
-  "location": "Compras.nao_informa_os_para_o_checkout()"
+  "location": "Compras.validateProductDetails()"
 });
 formatter.result({
-  "duration": 169715100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Compras.recebo_uma_mensagem_de_erro()"
-});
-formatter.result({
-  "duration": 37645800,
-  "status": "passed"
+  "status": "skipped"
 });
 });
